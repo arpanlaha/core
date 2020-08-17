@@ -2,7 +2,7 @@ package model
 
 type About struct {
 	Content   []string     `yaml:"content"`
-	Facilites []Facility   `yaml:"facilites"`
+	Facilities []Facility   `yaml:"facilities"`
 	History   AboutHistory `yaml:"history"`
 	Links     []AboutLink  `yaml:"links"`
 }
